@@ -17,7 +17,7 @@ if [ $? -eq 0 ]; then
 else
     echo "Backup Failed!"
 fi
-
+## error solving
 if [ ! -d "$SOURCE" ]; then
   echo "Source directory $SOURCE does not exist!"
   exit 1
